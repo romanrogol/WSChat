@@ -80,7 +80,7 @@ const Chat: React.FC = () => {
   };
 
   const handleRegister = () => {
-    if (ws ) {
+    if (ws && username && password ) {
       const registerData = {
         type: 'register',
         username,
