@@ -1,0 +1,17 @@
+{
+  "name": "chatwsapi",
+  "version": "1.0.0",
+  "description": "WS api for basic chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "ws": "^8.18.0",
+    "wschat": "^1.0.0"
+  }
+}
